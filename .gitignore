@@ -1,0 +1,28 @@
+### Step 2 — Paste this in root `.gitignore`
+```
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files — NEVER commit these!
+.env
+server/.env
+# client/.env
+*.env
+
+# Build files
+client/dist/
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

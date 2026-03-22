@@ -1,0 +1,181 @@
+.interview-page { padding: 40px 80px; }
+
+.setup-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.setup-card {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.setup-card h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.setup-card p {
+    color: #666;
+    margin-bottom: 28px;
+}
+
+.setup-input-group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.popular-roles p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.role-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.role-tag {
+    padding: 6px 14px;
+    background: #ede9ff;
+    color: #6c63ff;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.role-tag:hover {
+    background: #6c63ff;
+    color: white;
+}
+
+/* Interview */
+.interview-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.interview-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.interview-header p { color: #666; }
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.question-card { padding: 28px; }
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.question-num {
+    background: #6c63ff;
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.question-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.answer-input {
+    resize: vertical;
+    margin-bottom: 14px;
+    font-family: inherit;
+}
+
+.eval-btn { width: 100%; }
+
+.feedback-box {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.feedback-section {
+    background: #f8f9ff;
+    border-left: 4px solid #6c63ff;
+    padding: 14px 16px;
+    border-radius: 0 8px 8px 0;
+}
+
+.feedback-section.ideal {
+    background: #f0fff4;
+    border-left-color: #2ecc71;
+}
+
+.feedback-section h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #6c63ff;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.feedback-section.ideal h4 { color: #2ecc71; }
+
+.feedback-section p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.finish-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.finish-btn {
+    padding: 14px 48px;
+    font-size: 17px;
+}
+
+.btn-loading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.spinner-sm {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.4);
+    border-top: 2px solid white;
+    animation: spin 0.8s linear infinite;
+    display: inline-block;
+}

@@ -1,0 +1,92 @@
+.history-page { padding: 40px 80px; }
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.history-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.history-card { padding: 24px; }
+
+.history-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.history-card-header h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+}
+
+.history-score {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.history-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 14px;
+}
+
+.history-bar {
+    height: 6px;
+    background: #eee;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.history-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.5s ease;
+}
+
+.delete-btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 13px;
+}
+
+/* Empty state */
+.empty-state {
+    text-align: center;
+    padding: 60px 40px;
+    max-width: 400px;
+    margin: 60px auto;
+}
+
+.empty-icon { font-size: 60px; margin-bottom: 16px; }
+
+.empty-state h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.empty-state p {
+    color: #666;
+    margin-bottom: 24px;
+}
+
+
