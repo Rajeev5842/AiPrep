@@ -4,7 +4,6 @@
 
 ![MERN Stack](https://img.shields.io/badge/Stack-MERN-blue?style=for-the-badge)
 ![AI Powered](https://img.shields.io/badge/AI-Groq%20LLaMA%203.1-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
@@ -67,7 +66,7 @@ Groq API key (free at console.groq.com)
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/aiprep.git
+git clone https://github.com/Rajeev5842/aiprep.git
 cd aiprep
 ```
 
@@ -183,7 +182,25 @@ DELETE /api/interview/:id          Delete interview
 
 ## 📸 Screenshots
 
-> Coming soon
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/home.png" alt="Home Page" width="280"/>
+      <br/>
+      <b>Home Page</b>
+    </td>
+    <td align="center">
+      <img src="images/interview.png" alt="Interview Page" width="280"/>
+      <br/>
+      <b>Interview Page</b>
+    </td>
+    <td align="center">
+      <img src="images/questions.png" alt="Questions Page" width="280"/>
+      <br/>
+      <b>Questions Page</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -229,21 +246,13 @@ npm run preview  # Preview production build
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
-## 📄 License
-
-Distributed under the MIT License.
 
 ---
+
 
 ## 👨‍💻 Author
 
 **Rajeev Dangwal**
-- GitHub: [@rajeevdangwal](https://github.com/rajeevdangwal)
+- GitHub: [@rajeevdangwal](https://github.com/Rajeev5842)
 
 ---
-
-## ⭐ Show your support
-
-Give a ⭐ if this project helped you!
